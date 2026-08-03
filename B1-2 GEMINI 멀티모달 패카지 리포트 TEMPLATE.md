@@ -70,3 +70,56 @@
 * **보너스 1 - 립싱크(Lip-sync) 적용:** [어떤 씬에 적용했는지, 어떤 도구를 썼는지 적어주세요.]
 * **보너스 2 - 다른 도구로 재제작:** [동일한 씬을 다른 AI 도구로 만들었을 때의 결과물 링크와 차이점을 적어주세요.]
 * **보너스 3 - 플랫폼별 화면 비율 버전:** [16:9 외에 9:16(숏폼용) 등 다른 비율로 만든 영상의 링크나 파일명을 적어주세요.]
+
+* **   --
+## 확인후 실행 
+  📝 [3단계 - 1] 프롬프트 개선 로그 (README 4번 항목에 복사해 넣으세요!)
+가장 AI가 실수하기 쉬운 **'씬 2 (제품 컷)'**을 기준으로 작성했습니다.
+
+대상 씬 번호: Scene 2 (3가지 기능의 제품 컷)
+수정 전 의도: 물 위에 떠 있는 3가지 색상의 치약과 꽃잎을 통해 촉촉하고 향기로운 이미지를 연출하려고 함.
+초기 프롬프트: Three toothpaste tubes on water with flowers, beauty commercial --ar 16:9
+발생한 문제:
+치약 튜브의 재질이 저렴한 플라스틱처럼 보임.
+AI가 임의로 이상한 글자(외계어)를 튜브 표면에 생성함.
+색상이 칙칙하고 물결이 지저분하게 표현됨.
+수정 내용:
+재질과 조명을 고급스럽게 만들기 위해 premium cosmetic product photography, glowing soft light 추가.
+색상을 명확히 지정 (white, pastel blue, and pastel pink).
+이상한 글자가 나오지 않도록 네거티브 프롬프트(--no text, letters) 추가.
+수정된 프롬프트: Three elegant toothpaste tubes in white, pastel blue, and pastel pink standing on crystal clear water ripples, surrounded by floating delicate flower petals, glowing soft light, premium cosmetic product photography, 8k, highly detailed --ar 16:9 --no text, letters
+결과 변화: 튜브 표면이 깔끔해져서 편집 프로그램에서 직접 텍스트를 넣기 좋아졌고, 조명과 물결이 훨씬 맑고 투명해져 프리미엄 뷰티 브랜드(AuraBlanc)의 톤앤매너와 완벽하게 일치하는 결과물을 얻음.
+🛠️ [3단계 - 2] 실전! AI 소스 생성 및 편집 가이드
+이제 학생님이 직접 도구들을 켜고 소스를 만드실 차례입니다! 아래 순서대로 진행해 보세요.
+
+1. 이미지 생성 (Midjourney 또는 DALL-E 3)
+
+앞서 2단계 스토리보드에 적어드린 **'입력 프롬프트'**를 복사해서 이미지를 생성하세요.
+튜터의 꿀팁: 미드저니 사용이 어렵거나 유료 결제가 부담스럽다면, 챗GPT(Plus)의 DALL-E 3에 프롬프트를 한글로 번역해서 넣어도 아주 훌륭한 이미지가 나옵니다!
+2. 비디오 모션 부여 (Runway Gen-3, Luma Dream Machine, 또는 Kling AI)
+
+생성된 이미지를 비디오 AI 도구에 업로드(Image-to-Video) 하세요.
+모션 프롬프트는 아주 간단하게 적는 것이 좋습니다.
+씬 1: Subtle glowing mist coming from breath (숨결에서 나오는 은은한 안개)
+씬 2: Slow water ripples, floating petals (느린 물결, 떠다니는 꽃잎)
+씬 3: Subtle natural smile (자연스럽게 미소 짓는 얼굴)
+3. 오디오 생성 (ElevenLabs & Suno)
+
+성우 (ElevenLabs): "당신의 숨결이 향기가 되는 순간..." 대본을 넣고, 차분하고 고급스러운 20~30대 여성 목소리(예: Rachel, Bella 등)를 선택해 생성하세요.
+BGM (Suno): 프롬프트에 Elegant ambient electronic beauty commercial background music, calm and fresh 라고 적어 잔잔한 배경음악을 만드세요.
+4. 영상 통합 편집 (CapCut 또는 Premiere Pro)
+
+만들어진 영상 3개와 오디오를 편집기에 불러옵니다.
+길이 조절: 씬1(3초) + 씬2(3초) + 씬3(4초) = 총 10초로 자릅니다.
+자막/텍스트 추가:
+씬 2 화면 위에 Whitening · Deep Clean · Gum Care 텍스트를 예쁜 폰트로 얹어주세요.
+씬 3 화면 마지막에 AuraBlanc 로고(텍스트)가 페이드인(서서히 나타남) 되도록 효과를 줍니다.
+오디오 조절: 내레이션이 잘 들리도록 BGM 볼륨을 살짝 줄여주세요.
+출력: 1920x1080 (16:9) MP4 파일로 내보내기(Export) 합니다.
+👨‍🏫 튜터의 질문:
+자, 이제 학생님이 직접 AI 도구들을 활용해 **10초짜리 영상 파일(MP4)**을 만들어 보실 시간입니다!
+
+직접 만들어 보시면서 특정 도구(예: 런웨이, 미드저니 등)에서 막히는 부분이 생기면 언제든 질문해 주세요.
+영상을 다 만드셨거나, 이 가이드 내용이 충분히 이해되셨다면 **"통과"**를 외쳐주세요!
+
+마지막 **[4단계: 최종 제출용 README 점검 및 회고 작성]**으로 넘어가서 과제를 완벽하게 마무리해 드리겠습니다. 파이팅! 🎬✨
