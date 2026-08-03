@@ -21,6 +21,7 @@
 <!-- 힌트: 별도 PDF로 제출하시더라도, 전체적인 흐름을 파악할 수 있게 요약해 주세요. 씬 개수에 맞춰 복사해서 쓰세요! -->
 
 ### 🎬 Scene 1 (Intro) 향기의 시각화
+* **씬 번호:** Scene 1
 * **씬 길이:** 3초 (0s ~ 3s)
 * **목표 메시지:** 평범한 일상 속 숨결이 향기로운 아우라로 피어나는 순간을 시각적으로 표현
 * **화면 구성:** [구도] 인물 측면 클로즈업 / [피사체] 세련된 20대 여성 / [배경] 부드러운 빛이 스며드는 아침의 방 / [텍스트] 없음
@@ -32,22 +33,36 @@
 * **결과 파일명:** scene01_breath_aura.mp4
 
 ### 🎬 Scene 2 (Main) 3가지 기능과 향기의 결합
+* **씬 번호:** Scene 2
 * **씬 길이:** 3초 (0s ~ 3s)
-* **목표 메시지:** 평범한 일상 속 숨결이 향기로운 아우라로 피어나는 순간을 시각적으로 표현
-* **화면 구성:** [구도] 인물 측면 클로즈업 / [피사체] 세련된 20대 여성 / [배경] 부드러운 빛이 스며드는 아침의 방 / [텍스트] 없음
-* **내레이션/카피:**(내레이션) "당신의 숨결이 향기가 되는 순간,"
-* **사용 도구 및 목적:**이미지: Midjourney (프리미엄 뷰티 화보 톤의 인물 생성)
-비디오: Runway Gen-3 또는 Luma (숨결이 반짝이는 안개로 퍼지는 부드러운 모션 생성)
-* **프롬프트 원문:** A cinematic side profile close-up of an elegant 20s Korean woman exhaling gently, her breath turning into a subtle, sparkling floral mist, soft morning sunlight, premium beauty commercial style, 8k resolution, photorealistic --ar 16:9
-* **출력 결과 요약:** 투명하고 우아한 분위기의 여성이 숨을 내쉬며 빛나는 안개가 퍼지는 영상
-* **결과 파일명:** scene01_breath_aura.mp4
-)
+* **목표 메시지:** 미백, 클린, 잇몸케어 3가지 기능과 향기의 결합을 고급스럽게 어필
+* **화면 구성:** [구도] 제품 정면 탑앵글 / [피사체] 크리스탈 질감의 치약 튜브 3개(화이트, 블루, 핑크) / [배경] 맑은 물결과 흩날리는 꽃잎 / [텍스트] "Whitening · Deep Clean · Gum Care"
+* **내레이션/카피:**(내레이션) "세 가지 완벽한 케어, 그리고 하루 종일 머무는 향기."
+* **사용 도구 및 목적:**
+     이미지: Midjourney (고급스러운 화장품 렌더링 느낌의 제품 컷 생성)
+     비디오: Pika 또는 Kling (물결이 일렁이고 꽃잎이 날리는 모션 생성)
+* **프롬프트 원문:** Three elegant toothpaste tubes in white, blue, and pink standing on crystal clear water ripples, surrounded by floating delicate flower petals, glowing soft light, premium cosmetic product photography, 8k, highly detailed --ar 16:9
+* **출력 결과 요약:** 물결 위에 놓인 3가지 색상의 고급스러운 치약 주변으로 꽃잎이 흩날리는 영상
+* **결과 파일명:** scene02_product_3care.mp4
 
 ### 🎬 Scene 3 (Outro - 브랜드 인지)
 <!-- 힌트: 마지막 3~5초 구간입니다. 로고, 브랜드명, 슬로건, CTA(행동유도) 중 어떤 것을 넣었는지 반드시 포함해 주세요. -->
-* **씬 길이:** [00초] (※ 마지막 3~5초 구간 필수)
+* **씬 번호:** Scene 3
+* **씬 길이:** 4초 (6s ~ 10s)
 * **브랜드 인지 장치:** [로고 / 브랜드명 / 슬로건 / CTA 중 사용한 것을 적고 설명해주세요.]
-* (나머지는 Scene 1과 동일한 양식으로 채워주세요)
+* **목표 메시지:**  자신감 있는 미소와 함께 브랜드명(AuraBlanc)을 확실히 각인
+* **화면 구성:**  [구도] 인물 정면 바스트샷 → 로고 페이드인 / [피사체] 환하게 웃는 여성, 이후 AuraBlanc 로고 / [배경] 깨끗한 화이트 톤 / [텍스트] "AuraBlanc", "완벽한 케어는 오라블랑으로부터"
+
+* **내레이션/카피:**(내레이션) "완벽한 케어는 오라블랑으로부터. AuraBlanc."
+* **사용 도구 및 목적:**
+    이미지: Midjourney (환하게 웃는 인물 생성)
+    비디오: Runway Gen-3 (미소 짓는 자연스러운 모션 생성)
+    오디오: ElevenLabs (고급스럽고 차분한 여성 성우 내레이션), Suno (잔잔하고 세련된 앰비언트 BGM)
+* **프롬프트 원문:** A beautiful 20s Korean woman smiling confidently with bright white teeth, clean white and silver background, premium dental care commercial, elegant and fresh atmosphere, 8k, photorealistic --ar 16:9
+
+  
+* **출력 결과 요약:** 환하게 미소 짓는 여성의 모습 위로 브랜드 로고와 슬로건이 선명하게 나타나는 영상
+* **결과 파일명:** scene03_outro_logo.mp4
 
 ## 4. 프롬프트 개선 로그 (최소 1개 씬 필수)
 <!-- 힌트: 처음 입력했던 프롬프트가 마음에 안 들어서 어떻게 수정했는지 과정을 적어주세요. -->
