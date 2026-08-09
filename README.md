@@ -68,11 +68,12 @@
 * **결과 파일명:** scene03_outro_logo.mp4
 
 ## 4. 프롬프트 개선 로그 (최소 1개 씬 필수)
-<!-- 힌트: 처음 입력했던 프롬프트가 마음에 안 들어서 어떻게 수정했는지 과정을 적어주세요. -->
-* **대상 씬 번호:** [예: Scene 2]
-* **수정 전 의도:** [처음에 어떤 이미지를 만들고 싶었는지 적어주세요.]
-* **발생한 문제:** [처음 나온 결과물의 어떤 부분이 기획과 달랐거나 어색했는지 적어주세요.]
-* **수정 내용:** [문제를 해결하기 위해 프롬프트를 어떻게 바꿨는지 적어주세요.]
+
+* **대상 씬 번호:**  Scene 1
+* **초기 프롬프트:** "A woman exhaling beautiful flowers from her mouth..." (입에서 아름다운 꽃을 내뿜는 여성...)
+* **발생한 문제:** AI가 '꽃향기'를 문자 그대로 해석하여, 입에서 실제 꽃송이들이 역동적으로 뿜어져 나오는 기괴한(Grotesque) 영상이 생성됨. 프리미엄 브랜드의 우아한 느낌이 훼손됨.
+* **수정된 프롬프트 :** "A woman gently exhaling a subtle, glowing floral mist, translucent delicate pink particles drifting softly in the air, ethereal and mysterious atmosphere, soft cinematic lighting, extremely slow motion."
+(부드럽게 빛나는 은은한 꽃향기 미스트를 내쉬는 여성, 공기 중으로 부드럽게 흩어지는 반투명하고 섬세한 핑크빛 입자들, 신비롭고 몽환적인 분위기, 부드러운 영화 같은 조명, 매우 느린 모션)
 * **결과 변화:** [수정 후 결과물이 어떻게 좋아졌는지 적어주세요.]
 
 ## 5. 제약 사항 대응 및 문제 해결 전략
