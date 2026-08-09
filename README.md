@@ -71,6 +71,9 @@
 * **발생한 문제:** AI가 '꽃향기'를 문자 그대로 해석하여, 입에서 실제 꽃송이들이 역동적으로 뿜어져 나오는 기괴한(Grotesque) 영상이 생성됨. 프리미엄 브랜드의 우아한 느낌이 훼손됨.
 * **수정된 프롬프트 :** "A woman gently exhaling a subtle, glowing floral mist, translucent delicate pink particles drifting softly in the air, ethereal and mysterious atmosphere, soft cinematic lighting, extremely slow motion."
 (부드럽게 빛나는 은은한 꽃향기 미스트를 내쉬는 여성, 공기 중으로 부드럽게 흩어지는 반투명하고 섬세한 핑크빛 입자들, 신비롭고 몽환적인 분위기, 부드러운 영화 같은 조명, 매우 느린 모션)
+
+
+
 * **결과 변화:** [수정 후 결과물이 어떻게 좋아졌는지 적어주세요.]
 
 ## 5. 제약 사항 대응 및 문제 해결 전략
